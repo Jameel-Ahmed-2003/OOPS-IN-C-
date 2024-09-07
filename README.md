@@ -31,7 +31,6 @@ It is a feature that allows us to use objects of one class acquired the properti
 4. Hybrid Inheritance → combination of the rest of 4 inheritances
 5. Hierarchical Inheritance → One super class must share the properties to atleast 2 sub classes
 
-[FOLDER](https://www.notion.so/FOLDER-4d79148acaf046e3a2266795ed242737?pvs=21)
 
 ## Polymorphism
 
