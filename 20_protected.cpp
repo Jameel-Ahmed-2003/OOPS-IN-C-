@@ -1,4 +1,4 @@
-//to use protected minimum atleast 2 classes are required .Anything under protected access specifier can be accessed only within the class and the inherited class and cannot be accessed anywhere outside
+//to use protected minimum atleast 2 classes are required .Anything under protected access specifier can be accessed only within the class and the inherited class. It cannot be accessed anywhere outside
 #include <iostream>
 using namespace std;
 class A
