@@ -1,13 +1,19 @@
-//pure virtual function
-#include<iostream>
+// pure virtual function
+#include <iostream>
 using namespace std;
-class base{
-    public:
-    void fun(){}
+class bike
+{
+public:
+    virtual void start() { cout << "Bike Start\n"; }
 };
-class derived:public base{
-
+class Apache : public bike
+{
+public:
+    void start() { cout << "Apache start\n"; }
 };
-int main(){
+int main()
+{
+    bike *obj = new Apache();
+    obj->start();
     return 0;
 }
